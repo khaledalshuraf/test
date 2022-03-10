@@ -1,0 +1,43 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box 0;
+}
+
+.one{
+    width: 90%;
+    height: 350px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding: 20px;
+    margin: 100px auto;
+}
+
+.one div {
+    grid-column: span 3 ;
+    display: grid;  
+    padding: 20px ;
+    background-color:rgb(151, 148, 148);
+
+  
+}
+
+img{
+    width: 100%;
+    height: 175px;
+}
+.one p,a{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 26px;
+    margin: 7px 82px;
+    background-color: rgb(72, 161, 149);
+
+}

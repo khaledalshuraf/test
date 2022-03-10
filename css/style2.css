@@ -1,0 +1,138 @@
+body{
+box-sizing: border-box ; 
+padding: 0;
+margin: 0;}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li:hover ,
+.logo:hover{color: red;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    position: fixed;
+    top: 0px;
+    width: 96%;
+    padding: 25px 35px;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+ section{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content:end;
+}
+.kk{
+    margin-top: 400px;
+    padding-right: 100px;
+}
+#name:hover , #phone:hover , #amil:hover , #facebook:hover{
+    color: red;
+}
+#a , #b , #c , #d {
+    padding-left: 50px;
+    text-shadow: 2px 2px 3px #5a68ff;
+}
+
+
+.background{
+    background-image: url(../img/6813181-1361559017.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: khaled ;
+    animation-direction:alternate;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+}
+.grid{
+    width: 100%;
+    margin: 0px auto;
+    display: grid ;
+    grid-template-columns:repeat(12,1fr) ;
+    color: royalblue;
+    grid-column: span;
+
+}
+
+.grid  #one{
+    grid-column: span 3;
+}
+.grid  #two{
+    grid-column: span 9;
+}
+
+#one span:first-child{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    text-transform: capitalize;
+
+}
+#one span:last-child{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#two p{
+    padding: 30px;   
+    font-family: 'Open Sans', sans-serif;
+  
+    font-family: 'The Nautigal', cursive; 
+}
+
+.skill span{
+    float: right;
+}
+.border {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+}
+.border1{
+    width: 90%;
+    height: 100%;
+    background-color: red;
+}
+.border2{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+
+.border3{
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+
+.border4{
+    width: 85%;
+    height: 100%;
+    background-color: red;
+}
+.skills{
+    padding-right:25px ;
+}
+
+@keyframes khale{
+    from{    background-image: url(../img/6813181-1361559017.jpg)
+    }
+    to{background-image: url(../img/_115591117_gettyimages-1284429766.jpg);
+
+    }
+} 
+

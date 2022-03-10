@@ -1,0 +1,488 @@
+
+/*
+start navbar
+ */
+
+
+.upper-bar {
+    background-color: #265190;
+    color: rgb(255, 255, 255);
+    padding:5px;
+    height: 10vh;
+}
+
+.col-md i{
+    margin-left: 15px;
+}
+.get-quote span{
+    /* border: 1px solid  red; */
+    margin-left: 50px;
+    padding: 5px;
+    display: inline-block;
+
+}
+.forms{
+    text-align: left;
+    padding: 2px;
+}
+.navbar{
+    height: 10vh;
+}
+.navbar-expand-md{
+    padding: 20px;
+}
+.get-quote{
+    text-align: right;
+}
+.fa-align-justify:before {
+    content: "\f039";
+    color: black;
+}
+nav .container h3 :first-child{
+    font-weight: bold;
+}
+nav .container h3 :last-child {
+    font-weight:normal ;
+    color: red;
+
+}
+.navbar-nav {
+    padding-left: 10px;
+    text-transform: uppercase;
+
+}
+.navbar-expand-md .navbar-nav .active   {
+    color: red ;
+}
+/*
+ end navbar 
+ */
+/*
+ start slider
+*/
+
+#demo .carousel-inner .carousel-item {
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%  ;
+    height: 626px;
+    object-fit: cover;
+    position: relative;    
+}
+.carousel .carousel-inner  .one{
+    background-image: url(../img/steve.jpg);
+    width: 100%;
+    height: 626px;
+}
+.carousel .carousel-inner  .two{
+    background-image: url(../img/hh.jpg);
+    width: 100%;
+    height: 626px;
+
+}
+
+.carousel .carousel-inner  .three{
+    background-image: url(../img/kk.jpg);
+    width: 100%;
+    height: 626px;
+}
+
+#demo .carousel-indicators li{
+    cursor: pointer;
+    height: 7px;
+}
+#demo h1{
+    position: absolute;
+    top: 50%;
+    left:35px;
+    color: white;
+    width: 500px;
+    }
+#demo h1 span{
+    background-color: red;
+    display: inline-block;
+}
+#demo{
+    background-color: #000;
+}
+/*
+end slider
+*/
+
+
+ /*
+  Start features 
+ */
+
+.feature{
+    margin:80px 0px;
+}
+
+
+.feature  i{
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin: 8px;
+}
+.feature  h3{
+    color: #0000ffa6;
+}
+
+ /* 
+  End features
+   */
+
+   /* start Company  */
+   .company .row{
+    background-color: #b4d7bc78;
+    padding: 100px;   
+   }
+   .company p{
+       margin: auto;
+       width: 80%;
+   }
+   .company h1{
+       text-transform: uppercase;
+   }
+   .company span{
+       letter-spacing: 4px;
+       color: #a9a1a1;
+    }
+   .company button{
+       text-transform: uppercase;
+       background-color: red;
+       color: white;
+       border: 1px solid black;
+       padding: 7px;
+       margin-top: 30px;
+
+   }
+
+   /* End Company  */
+
+
+
+/* start featured-work */
+.featured-work h2{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+.featured-work p{
+    width: 70%; 
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.featured-work li{
+    border: 2px solid rgba(0, 0, 255, 0.418);
+    margin-left: 40px;
+    margin-bottom: 40px;
+    transition: 1s;
+
+
+}
+
+
+
+.featured-work  .active{
+    background-color: rgb(143, 69, 69);
+}
+.featured-work li:hover {
+    background-color: rgb(143, 69, 69);
+}
+.featured-work li {
+    cursor: pointer;
+}
+
+/* End featured-work */
+
+
+/* Start imges */
+.featured-work .row .col-md{
+    padding: 0;
+}
+.featured-work .row img{
+    width: 100%;
+}
+.featured-work .shuffle-im  .row{
+    margin: 0;
+}
+
+/* End imges */
+
+
+
+
+
+/* start card */
+.ccard{
+    margin-top: 150px;
+}
+.container .card{
+    margin-top: 40px;
+}
+.ccard .pp{
+    width: 70%;
+    margin: auto;
+}
+.ccard h4{
+    color: rgba(71, 71, 158, 0.575);
+    font-size: 20px;
+}
+.ccard h6{
+    color: #007bffb0;
+}
+
+.ccard a{
+    border: none;
+    font-weight: bold;
+    margin: 10px 0;
+}
+/* End card */
+
+
+/* start pricing table */
+.pricing{
+    margin-top: 60px;
+}
+.pricing h1{
+    font-weight: bold;
+}
+.pricing li{
+    border: none;
+}
+.pricing .pp{
+    width: 70%;
+    margin: auto;
+
+}
+
+ .pricing .row{
+    margin: 0;
+    margin-top: 100px;
+}
+ .pricing.row .col-md{
+    padding: 0;
+}
+.pricing .card1 a{
+    background-color: #ed1d24;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.pricing .card2  p{
+    background-color: #ed1d24 !important;
+    color: white !important;
+}
+
+.pricing .card2 a{
+    background-color: #08526d;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.pricing .row p{
+    color: #08526d;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 30px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pricing .row span{
+    font-size: 16px;
+}
+
+.pricing  h2{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #08526d;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.pricing .card-body{
+    padding: 0px;
+}
+.pricing .ccard2{
+    position: relative;
+    top: -25px;
+}
+/*End pricing table */
+
+
+/* staer choose-us */
+.choose-us .row{
+    margin: 0;
+}
+.choose-us .col-md-6{
+    padding: 0;
+}
+
+.choose-us img{
+    max-width: 100%;
+}   
+.choose-us .col-md-6:last-child{
+    background-color:#08526d ;
+    color: white;
+    padding: 50px 30px;
+}
+.choose-us h2{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.choose-us .col-md-6:last-child p{
+    line-height: 2;
+}
+
+.choose-us .col-md-6:last-child a{
+    color: white;
+    background-color:#ed1d24 ;
+    border: none;
+    padding: 8px 15px;
+    text-transform: uppercase;
+}
+
+/* End choose-us */
+
+
+ /* start statistics  */
+ .statistics{
+margin: 100px 0;
+
+ }
+.statistics span{
+    display: block;
+}
+
+.statistics .row i{
+    color: #08526d;
+    font-size: 30px;
+}
+
+
+.statistics .row span{
+    color: #08526d;
+    font-size: 30px;
+}
+.statistics p{
+    text-transform: uppercase;
+    color: #ed1d24;
+    font-size: 14px;
+
+}
+.statistics .start-box{
+    padding-bottom: 40px;
+}
+
+ /* End statistics  */
+
+ /* start Contact-Us */
+.Contact-Us{
+    padding: 60px 0;
+    background-color:#ed1d24 ;
+}
+.Contact-Us p{
+    color: white !important;
+    font-size: 24px;
+}
+.Contact-Us a{
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white !important;
+    font-size: 24px;
+}
+
+ /* End Contact-Us */ 
+ /* start footer */
+.footer h2{
+    color: #08526d;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.footer span{
+    color: #ec1c23;
+}
+.footer{
+    margin-bottom: 40px;
+}
+.footer a{
+    font-weight: bold;
+    color: #08526d;
+    font-size: 19px;
+
+}
+.footer ul li{
+margin-bottom: 11px;
+
+
+}
+.footer a ::before{
+    font-family: 'FontAwesome';
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;
+}
+.footer .pp p{
+    margin-bottom: 47px;
+
+}
+
+.footer  ul li:before {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    margin-right: 5px;
+    color: #08526d;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+  /* End footer */
+
+  /* start copyeight */
+  .copyeight{
+      border-top: 3px solid black;
+      
+
+  }
+  .copyeight .row{
+      margin-top: 40px;
+  }
+
+
+
+.copyeight ul li{
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 24px;
+    color:rgba(0, 0, 0, 0.329) ;
+    position: relative;
+    left:-120px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+  /* End copyeight */

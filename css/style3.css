@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box ; 
+    padding: 0;
+    margin: 0;
+}
+
+
+    
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px , 15px;
+    border-bottom: 2px solid black;
+}
+header img{
+    width: 200px ;
+    height: 100px;
+    object-fit: cover;
+}
+
+a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+select{
+    padding: 10px 30px;
+    margin:30px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+
+}
+select option{
+    background-color: white;
+    color: black;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+#contenaer{
+    width: 100%;
+    height:120%;
+    background-color: #c5f1f1;
+}
+
+#girl{
+    width: 80%;
+    height:70%;
+    background-image: url(../img/images-2021-07-15T202532.443.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 80px  auto ;
+
+
+
+}
+    
+section{
+    display: flex;
+    height: 100%;
+    padding-left: 15px;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+section #a p {
+    font-size: 40px;
+    color: white;
+    line-height: 20px;
+    margin: 30px 30px;
+}
+section #a #lorem{
+    font-size: 20px;
+    color: white;
+    margin: 30px 30px;
+
+
+
+}
+
+button#r{
+    background-color: #ffcd1f;
+    border-radius: 5px;
+    margin-right: 15px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+button:last-child:hover{
+    background-color:#ffce1fb2 ;
+}
+
+button:first-child{
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+    border: none;
+    font-size: 20px;
+}
+button:first-child:hover{
+    background-color: rgba(231, 229, 229, 0.795);
+}
+
+#lorem{
+    font-size: 20px;
+    width: 50%;
+}
+#b  button{
+    width:150px;
+    background-color: blue;
+    margin: 20px 20px;
+    padding:20px 25px;
+    color: white;
+
+
+}
+#b  button:hover{
+    background-color: rgba(0, 0, 255, 0.534);
+}
+
+#contenaer2{
+    display: flex;
+    justify-content: center;
+}
+#contenaer2 p , span{
+    margin: 100px auto;
+    font-size: 30px;
+}
+#contenaer2 span{
+    padding-right: 50px;
+}
+#contenaer3 {
+    width: 70%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contenaer3 p{
+    width: 500px;
+    font-size: 20px;
+    align-items: center;
+}
+#contenaer3 #m{
+    width:90%;
+    font-size:30px;
+}
+    
+
+#contenaer3 #s{
+    width:90%;
+    font-size:30px;
+    text-align: center;
+}
+#contenaer3 img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+#contenaer4 p{
+    text-align: center;
+    font-size: 35px;
+
+}
+#contenaer4 button {
+    margin: 18px 670px;
+    padding: 10px 30px;
+    padding: 14px 49px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+#contenaer4 button:hover{
+    background-color: rgba(0, 162, 255, 0.795);
+}
+
+ 
+#contenaer5  {
+    width: 100%;
+    background-color: #c5f1f1;
+}
+#contenaer4 #o a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    justify-content: center; 
+    display: flex;    
+    margin: 25px auto;
+    width: 150px;
+}
+
+footer{
+    width: 100%;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+
+}
+footer p{
+    padding: 25px 50px;
+}
+footer #foo{
+    width: 100%;
+    grid-column: span 6;
+    padding: 30px 0px;
+    justify-content: space-between;
+    display:flex;
+
+}
+footer #foo span{
+    padding: 10px 20px ;
+    font-size: 16px;
+}
+
+footer #foo img{
+    width:150px;
+    height:50px;
+    padding: 0px 20px;
+}
+div#img {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,350px);
+    gap: 8px;
+    background-color: #ddd;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div #mahmuod{
+    grid-column: span 4;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+
+}
+div #mahmuod:hover img{
+    transform: scale(1.2);
+    transition: 3s;
+}
+div #Kalil{
+    grid-column: span 8;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+div #Kalil:hover img{
+    transform: scale(1.2);
+    transition: 3s;
+    object-fit: cover;
+    size: cover;
+}
+button#d{
+    font-size: 30px;
+}
+
+/*
+
+
+تغير لون خلفية النص 
+
+
+
+*/
+
+div#colors{
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    top:50%;
+    right: 0px; 
+    background-color: red;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    transform: translate(100%,-50%); 
+    transition: 2s;
+}
+div#colors  span {
+    width: 50px ;
+    height: 50px ;
+    display: flex;
+}
+
+div#colors button{
+    width: 50px;
+    height:50px;
+    background-color: #ffcd1f;
+    position: absolute;
+    right: 100%;
+    padding: 10px;
+} 
+.pen{
+    transform: translate(0,-50%); 
+}
+
+div #colors #yellow{
+    background-color: yellow;
+}
+div #colors #green{
+    background-color: green;
+}
+div #colors #red{
+    background-color: rgb(34, 26, 26);
+}
+
+    
+    
+
+
+
+
+
+ 
+
+
+
+
+
+
+    
+
+
+
